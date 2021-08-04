@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: blzlib
+Description: 
+Requires: libsystemd
+Version: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lblzlib
